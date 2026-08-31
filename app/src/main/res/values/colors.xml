@@ -1,0 +1,10 @@
+<resources>
+    <color name="primary_navy">#1E3A8A</color>
+    <color name="primary_navy_dark">#0F172A</color>
+    <color name="accent_emerald">#059669</color>
+    <color name="warning_amber">#D97706</color>
+    <color name="danger_rose">#E11D48</color>
+    <color name="background_light">#F8FAFC</color>
+    <color name="surface_white">#FFFFFF</color>
+    <color name="border_slate">#E2E8F0</color>
+</resources>

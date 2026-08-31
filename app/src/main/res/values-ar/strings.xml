@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">سوق روضينة للحسابات</string>
+    <string name="dashboard_tab">الرئيسية</string>
+    <string name="inventory_tab">المخزون</string>
+    <string name="directories_tab">الدليل</string>
+    <string name="sales_tab">المبيعات</string>
+    <string name="settings_tab">الإعدادات</string>
+</resources>

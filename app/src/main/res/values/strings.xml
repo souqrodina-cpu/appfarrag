@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Souq Rodina Accounting</string>
+    <string name="dashboard_tab">Dashboard</string>
+    <string name="inventory_tab">Inventory</string>
+    <string name="directories_tab">Directory</string>
+    <string name="sales_tab">Sales / POS</string>
+    <string name="settings_tab">Settings</string>
+</resources>
