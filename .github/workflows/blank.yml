@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout the code
+    - name: Checkout repository
       uses: actions/checkout@v4
 
     - name: Set up JDK 17
@@ -18,13 +18,13 @@ jobs:
         distribution: 'temurin'
         java-version: '17'
 
-    - name: Grant execute permission for gradlew
-      run: chmod +x gradlew
+    - name: Make Gradle executable
+      run: chmod +x ./gradlew
 
-    - name: Build Debug APK with Stacktrace
-      run: ./gradlew assembleDebug --info
+    - name: Build Debug APK (Professional Fix)
+      run: ./gradlew assembleDebug --stacktrace --no-daemon
 
-    - name: Upload APK file
+    - name: Upload APK Artifact
       uses: actions/upload-artifact@v4
       with:
         name: app-debug-apk
